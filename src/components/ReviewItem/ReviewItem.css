@@ -2,8 +2,9 @@
     display: flex;
     border: 1px solid maroon;
     width: 571px;
-    margin: auto;
+    margin: 21px auto;
     padding: 8px;
+    border-radius: 8px;
 }
 .review-item img{
     width: 91px;
@@ -28,4 +29,15 @@
 .delete-icon {
     font-size: 31px;
     color: crimson;
+}
+.delete-icon:hover{
+    color: maroon;
+}
+.btn-delete:hover{
+    background-color: rgb(245, 82, 82);
+    cursor: pointer;
+}
+.delete-container{
+    display: flex;
+    align-items: center;
 }
