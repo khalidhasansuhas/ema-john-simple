@@ -1,5 +1,9 @@
 .review-item{
     display: flex;
+    border: 1px solid maroon;
+    width: 571px;
+    margin: auto;
+    padding: 8px;
 }
 .review-item img{
     width: 91px;
@@ -7,4 +11,21 @@
 
 .review-details-container{
     display: flex;
+    margin-left: 17px;
+    width: 100%;
+    justify-content: space-between;
+}
+.review-details p {
+    margin: 0;
+}
+.btn-delete{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(238, 162, 162);
+}
+.delete-icon {
+    font-size: 31px;
+    color: crimson;
 }
