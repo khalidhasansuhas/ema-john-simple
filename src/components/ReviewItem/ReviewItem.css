@@ -1,0 +1,10 @@
+.review-item{
+    display: flex;
+}
+.review-item img{
+    width: 91px;
+}
+
+.review-details-container{
+    display: flex;
+}
