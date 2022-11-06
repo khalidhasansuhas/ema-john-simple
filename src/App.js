@@ -19,7 +19,6 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
-        loader: ()=> fetch('products.json'),
         element:<Shop></Shop>
       },
       {
